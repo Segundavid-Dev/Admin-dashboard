@@ -1,9 +1,11 @@
 import "./App.css";
+import "boxicons/css/boxicons.min.css";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
-    <div>
-      <h1 className="font-mono">Hello world</h1>
+    <div className="leading-7">
+      <NavBar />
     </div>
   );
 }
