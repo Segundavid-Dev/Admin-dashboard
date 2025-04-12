@@ -1,12 +1,13 @@
 import { MdLibraryBooks } from "react-icons/md";
 import { GoPeople } from "react-icons/go";
 import { HiOutlineTicket } from "react-icons/hi2";
+import RevenueChart from "./Chart";
 
 export default function Analytics() {
   return (
-    <div className="flex-1">
+    <div className="flex-1 flex flex-col gap-20">
       <AnalyticsCard />
-      <p>lorem</p>
+      <RevenueChart />
     </div>
   );
 }

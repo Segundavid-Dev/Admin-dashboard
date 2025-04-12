@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="leading-7 text-[14px]">
       <NavBar />
-      <div className="flex items-center gap-4 my-3">
+      <div className="flex gap-4 my-3">
         <SideNav />
         <Analytics />
       </div>
