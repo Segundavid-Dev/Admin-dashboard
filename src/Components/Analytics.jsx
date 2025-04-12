@@ -2,19 +2,21 @@ import { MdLibraryBooks } from "react-icons/md";
 import { GoPeople } from "react-icons/go";
 import { HiOutlineTicket } from "react-icons/hi2";
 import RevenueChart from "./Chart";
+import VennChart from "./VennDiagram";
 
 export default function Analytics() {
   return (
-    <div className="flex-1 flex flex-col gap-20">
+    <div className="flex flex-col">
       <AnalyticsCard />
       <RevenueChart />
+      <VennChart />
     </div>
   );
 }
 
 function AnalyticsCard() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex justify-between pb-15 gap-10">
       <div className="bg-[#F2FEF8] py-10  px-15 rounded-lg shadow-md flex items-start gap-[5rem]">
         <div>
           <h2>Total Events </h2>
