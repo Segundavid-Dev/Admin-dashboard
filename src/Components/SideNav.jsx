@@ -7,7 +7,7 @@ import { RiLogoutCircleRLine } from "react-icons/ri";
 
 export default function SideNav() {
   return (
-    <ul className="bg-[#F2F2F2] w-24 h-[65vh] rounded-2xl text-[#868686] flex flex-col items-center justify-center text-[12px]">
+    <ul className="bg-[#F2F2F2] w-24 h-[65vh] rounded-2xl text-[#868686] flex flex-col items-center justify-center text-[12px] p-3">
       <li className="flex flex-col items-center cursor-pointer text-black font-bold">
         <span className="bg-[#EDEDED] border rounded-full p-2 ">
           <GoHomeFill />

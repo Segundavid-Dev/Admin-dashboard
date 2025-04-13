@@ -2,7 +2,7 @@ import { Stage, Layer, Circle, Text } from "react-konva";
 
 export default function VennChart() {
   return (
-    <div className="grid grid-cols-2 items-center p-4">
+    <div className="grid grid-cols-2 items-center p-10 bg-[#E6E6E6]">
       <Chart1 />
       <Chart2 />
     </div>
@@ -11,7 +11,8 @@ export default function VennChart() {
 
 function Chart1() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="bg-white rounded-lg">
+      <h1 className="font-bold p-[1rem]">Top Organizers</h1>
       <Stage width={400} height={400}>
         <Layer>
           <Circle x={200} y={200} radius={100} fill="#1a1a1a" />

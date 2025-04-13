@@ -5,7 +5,7 @@ import Analytics from "./Components/Analytics";
 
 function App() {
   return (
-    <div className="leading-7 text-[14px]">
+    <div className="leading-7 text-[14px] overflow-hidden">
       <NavBar />
       <div className="flex gap-4 my-3">
         <SideNav />
