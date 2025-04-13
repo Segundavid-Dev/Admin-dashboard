@@ -86,11 +86,16 @@ const options = {
       },
     },
   },
+  plugins: {
+    datalabels: {
+      display: false, // Disable ChartDataLabels for this chart
+    },
+  },
 };
 
 function RevenueChart() {
   return (
-    <div className="h-72 border p-[2rem] rounded-md border-[#E2E2E2] ">
+    <div className="h-72 border p-[2rem] rounded-md border-[#E2E2E2]">
       <p className="font-bold">Revenue Metrics</p>
       <Chart type="bar" data={data} options={options} />
     </div>
